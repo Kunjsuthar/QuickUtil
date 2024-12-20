@@ -1,0 +1,43 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+  p, a, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .btn-custom {
+    background-color: #ff6600;  /* Custom orange color */
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-custom:hover {
+    background-color: #ff3300;
+    transform: scale(1.05);
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  

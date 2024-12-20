@@ -1,0 +1,63 @@
+/* Add smooth transitions for buttons, cards, etc. */
+body {
+  /* background: url('background.jpg') no-repeat center center fixed; */
+  background-size: cover; /* Cover the entire screen */
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-repeat: no-repeat;
+}
+body {
+  background: linear-gradient(135deg, #6f42c1, #e83e8c);
+  color: #fff;
+}
+
+.btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Optional: Page transition animation */
+  .fade-enter {
+    opacity: 0;
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1.5rem 0;
+  }
+  
+  footer a {
+    color: #ffffff;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #17a2b8;
+  }
+  
+
+
+
+
+
+
+  /**/
+ 
